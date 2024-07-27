@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Interiors Limited</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hybrid Interiors Limited</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h2>Transforming Spaces with Style</h2>
+    </div>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Hybrid Interiors Limited is a premier interior design company based in Kenya. We specialize in creating innovative and modern interior designs that transform spaces and bring our clients' visions to life. Our team of experienced designers is dedicated to delivering exceptional results for both residential and commercial projects.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Services</h2>
+            <ul>
+                <li>Residential Interior Design</li>
+                <li>Commercial Interior Design</li>
+                <li>Space Planning</li>
+                <li>Project Management</li>
+                <li>Custom Furniture Design</li>
+            </ul>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="Thispc/downloads/ffr.jpg">
+                <div>
+                    <h3>Modern Living Room</h3>
+                    <p>This modern living room design features a sleek and minimalistic approach with vibrant accent colors to create a cozy yet elegant atmosphere.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/originals/5b/30/24/5b30244dd84a517b053e6ec34f8d9c78.jpg" alt="Office Space">
+                <div>
+                    <h3>Office Space</h3>
+                    <p>A contemporary office space that promotes productivity and creativity. The design incorporates ergonomic furniture and an open layout.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/originals/d0/18/7d/d0187ddaa7cf2c2ed087fbe49034d19f.jpg" alt="Luxury Bedroom">
+                <div>
+                    <h3>Luxury Bedroom</h3>
+                    <p>This luxury bedroom design exudes comfort and sophistication with high-end finishes and a harmonious color palette.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Phone: 0745786665</p>
+                <p>Email: hybridinteriors254@gmail.com</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Hybrid Interiors Limited. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
